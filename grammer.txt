@@ -1,0 +1,68 @@
+					Keywords Meaning
+=================================================================================================================
+-> dtd 		--> data type define ( mandatory when inializing or performing arithematic operation)
+-> =   		--> assignment operator
+-> el  		--> endline (not mandatory if a grammer is used as a last statement)
+-> +   		--> plus operator
+-> -   		--> minus operator
+-> *   		--> product operator
+-> /   		--> divide operator
+
+
+-> display() 	--> display function for output variable or constant value (display() must not be empty, display() must have only one value)
+
+
+-> if		--> if statement  
+-> start_if	--> if body start
+-> end_if	--> if body end
+		Note (if body must have only one valid statement in it (display statement is set uptil now, changes to be made), multiples(displays) are not allowed)
+-> while	--> while statement  
+-> start_while	--> while body start
+-> end_while	--> while body end
+		Note (while body must have only one valid statement in it (display statement is set uptil now, changes to be made), multiples(displays) are not allowed)
+
+RELATIONAL or COMPARISON OPERATORS
+--------------------------------------
+-> gt		--> greater than
+-> lt		--> less than
+-> gte		--> greater or equal to
+-> lte		--> less or equal to
+-> eq		--> equal to
+-> ne		--> not equal to
+======================================================================================================================
+
+
+TO INITIALIZE A VARIABLE
+================================
+dtd variableName = value el
+
+
+ARITHEMATIC OPERATION
+=============================
+dtd variableThatWillHoldAnswer = operandOne + operandTwo el
+dtd variableThatWillHoldAnswer = operandTwo - operandOne el
+dtd variableThatWillHoldAnswer = operandOne * 6 el
+dtd variableThatWillHoldAnswer = 10 / 5 el
+
+
+TO DISPLAY 
+======================
+display(yourvariableOrAnyConstantvalue) el
+
+
+IF STATEMENT
+======================
+if operandOne relationalOperator operandTwo  
+start_if
+	// DISPLAY STATEMENT
+end_if 
+
+
+WHILE STATEMENT
+=========================
+while operandOne relationalOperator operandTwo  
+start_while
+	// DISPLAY STATEMENT
+end_while 
+
+

@@ -1,0 +1,11 @@
+dtd numOne = 10 el
+dtd numTwo = 30 el
+dtd add = numOne + numTwo el
+display(add) el
+dtd subt = numTwo - numOne el
+display(subt) el
+
+if numOne gt numTwo 
+start_if
+display(greaterNumber) el
+end_if
